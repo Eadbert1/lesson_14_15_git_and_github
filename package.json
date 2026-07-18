@@ -1,0 +1,27 @@
+{
+  "name": "lesson13-14_git_and_github",
+  "version": "1.0.0",
+  "description": "1. Make Sure you already setting your git to connect to the github\r ```shell\r git config --global user.name \"your_username\"\r git config --global user.email \"your_email\"\r ```\r 2. open your vscode, terminal -> new terminal -> cmd (hit enter)\r 3. type git init\r ```shell\r git init\r ```\r 4.rename the branch to main\r ```shell\r git branch -m main\r ```\r 5. connect your git local and github using this command \r ```shell\r git remote add orgin https://your-repository-url\r ```",
+  "main": "app.js",
+  "type": "module",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "start": "node --watch app.js"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/Eadbert1/lesson_14_15_git_and_github.git"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/Eadbert1/lesson_14_15_git_and_github/issues"
+  },
+  "homepage": "https://github.com/Eadbert1/lesson_14_15_git_and_github#readme",
+  "dependencies": {
+    "express": "^5.2.1",
+    "express-handlebars": "^9.0.1",
+    "handlebars": "^4.7.9"
+  }
+}

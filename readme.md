@@ -31,3 +31,21 @@ git commit -m "your message" // for example "first commit"
 ```shell
 git push origin main
 ```
+
+
+## How to start new project javascript
+1. run this command
+```shell
+npm init -y
+```
+
+2. run this command to add special files so git wont push node nodules/
+```shell
+touch .gitignore
+```
+
+3. add this line 
+```shell
+node_modules/
+package-lock.json
+```
