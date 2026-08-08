@@ -1,0 +1,5 @@
+-> Personal money tracker
+concept : Make an app that can note my income or outcome.
+Example case : my mom give me 100 ribu for 1 year, and the app i will take a note inside apps 1000.0000 as income 
+and that day  spend 35k to buy spicy chicken wing
+3335.000 as outcome-> formula -> income - outcome = the rest of my money-> all of the money i have is saved in total
